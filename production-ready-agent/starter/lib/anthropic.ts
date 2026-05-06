@@ -7,7 +7,7 @@ import { join } from "node:path";
 // --env-file both refuse to override existing process env. bin/setup.sh
 // copies the repo-root .env into each app dir; fall back to the root for a
 // fresh checkout where setup hasn't run yet.
-const envPath = [join(process.cwd(), ".env"), join(process.cwd(), "..", "..", ".env")].find(existsSync);
+const envPath = [join(process.cwd(), ".env"), join(process.cwd(), "..", ".env")].find(existsSync);
 const dotenv = Object.fromEntries(
   (envPath ? readFileSync(envPath, "utf8") : "")
     .split("\n")

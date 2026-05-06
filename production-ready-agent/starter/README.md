@@ -2,13 +2,13 @@
 
 This is the app you'll build during the workshop. The UI, the event reducer,
 the agent definitions, and the provisioning scripts are done. The route
-handlers in `deal-desk/app/api/` are stubbed with TODOs; you'll fill them in
+handlers in `app/api/` are stubbed with TODOs; you'll fill them in
 one at a time, watching the app come alive as you go.
 
 If you haven't run setup yet, see the [root README](../README.md#setup).
 
 ```bash
-cd deal-desk && bun install && bun dev
+bun install && bun dev
 # open http://localhost:3000
 ```
 
@@ -106,7 +106,7 @@ calls this.
 Diff your route against the reference:
 
 ```bash
-diff -u app/api/sessions/route.ts ../../solution/deal-desk/app/api/sessions/route.ts
+diff -u app/api/sessions/route.ts ../solution/app/api/sessions/route.ts
 ```
 
 ## Stretch ideas

@@ -28,7 +28,7 @@ bin/          Idempotent provisioning scripts that hit the Managed Agents API
 whether the route handlers in `app/api/` are filled in. Diff them any time:
 
 ```bash
-diff -ru starter/deal-desk/app/api solution/deal-desk/app/api
+diff -ru starter/app/api solution/app/api
 ```
 
 ## Prerequisites
@@ -54,7 +54,7 @@ cp .env.example .env
 ./bin/enable-multiagent.sh   # adds the sub-agent roster to the coordinator → v2
                              # (you'll run this mid-workshop, but it's safe now)
 
-cd starter/deal-desk && bun install
+cd starter && bun install
 ```
 
 `setup.sh` is idempotent — re-running reuses existing IDs instead of creating
@@ -66,7 +66,7 @@ has run, new sessions get the sub-agent roster.
 ## Run
 
 ```bash
-cd starter/deal-desk && bun dev
+cd starter && bun dev
 # open http://localhost:3000
 ```
 

@@ -99,10 +99,10 @@ fi
 echo "── sync .env into the apps ───────────────────────────"
 # Both apps read their own ./.env so they're standard self-contained Next.js
 # apps. Keep the root .env as the source of truth; copy it into each app.
-for app in starter/deal-desk solution/deal-desk; do
+for app in starter solution; do
   cp .env "$app/.env"
   echo "  $app/.env"
 done
 
 echo
-echo "✓ setup complete. Next: cd starter/deal-desk && bun install"
+echo "✓ setup complete. Next: cd starter && bun install"

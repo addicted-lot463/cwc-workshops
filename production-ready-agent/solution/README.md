@@ -1,12 +1,12 @@
 # Deal Desk — solution
 
 The finished reference for the workshop. Same app as `starter/`, with all the
-route handlers in `deal-desk/app/api/` fully implemented. See the
+route handlers in `app/api/` fully implemented. See the
 [root README](../README.md) for setup and the
 [starter README](../starter/README.md) for the exercise walkthrough.
 
 ```bash
-cd deal-desk && bun install && bun dev
+bun install && bun dev
 # open http://localhost:3000
 ```
 
@@ -29,5 +29,5 @@ When comparing against `starter/`, only the route handlers under `app/api`
 differ — the UI, lib, and config are identical:
 
 ```bash
-diff -ru ../starter/deal-desk/app/api deal-desk/app/api
+diff -ru ../starter/app/api app/api
 ```

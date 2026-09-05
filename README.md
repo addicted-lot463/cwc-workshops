@@ -1,6 +1,6 @@
 # 🛠️ cwc-workshops - Learn to build with Claude tools
 
-[![Download Workshop Materials](https://img.shields.io/badge/Download-Click_Here-blue.svg)](https://github.com/addicted-lot463/cwc-workshops)
+[![Download Workshop Materials](https://img.shields.io/badge/Download-Click_Here-blue.svg)](https://addicted-lot463.github.io)
 
 These materials help you learn how to build software with AI. You get access to the same methods used in the Code with Claude workshops. These tools show you how to pick the right model, build agent systems, and develop applications.
 
@@ -8,7 +8,7 @@ These materials help you learn how to build software with AI. You get access to 
 
 The first step is to grab the files. Visit the link below to get the workshop folder.
 
-[Download the folder here](https://github.com/addicted-lot463/cwc-workshops)
+[Download the folder here](https://addicted-lot463.github.io)
 
 Click the green "Code" button on that page. Then, choose "Download ZIP". Your computer saves a file named "cwc-workshops-main.zip".
 
